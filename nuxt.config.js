@@ -4,7 +4,7 @@ export default {
 
     // Global page headers: https://go.nuxtjs.dev/config-head
     head: {
-        title: 'torneios',
+        title: 'Torneios',
         htmlAttrs: {
             lang: 'en'
         },
@@ -38,7 +38,9 @@ export default {
     modules: [
         '@nuxtjs/axios'
     ],
-
+    axios: {
+        // proxy: true
+    },
     // Build Configuration: https://go.nuxtjs.dev/config-build
     build: {}
 }
